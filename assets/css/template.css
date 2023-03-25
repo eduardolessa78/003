@@ -1,0 +1,81 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.container{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+}
+.legenda{
+    text-align: center;
+    font-size: 10px;
+}
+.area{
+    display: flex;
+}
+li{
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+h6, h1{
+    text-align: center;
+    margin: 0;
+}
+h6{
+    color: blue;
+}
+.subli{
+    font-size: 10px;
+    padding-top: 0;
+    color: blue;
+}
+.imagens{
+    margin-top: 30px;
+}
+.imagemdiv{
+    border-radius: 20px;
+    border: solid 1px black;
+    height: 200px;
+}
+article{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+article div{
+    padding: 5px;
+}
+footer{
+    display: flex;
+    width: 900;
+    border-top: 1px solid black;
+    padding: 10px;
+    margin-top: 20px;
+    justify-content:space-between;
+    font-weight: bold;
+    font-size: 10px;
+}
+footer img{
+    padding: 10px;
+}
+footer p{
+    font-size: 10px;
+    margin: 0;
+}
+footer h6{
+    font-size: 9px;
+    margin: 0;
+}
+
